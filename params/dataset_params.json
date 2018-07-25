@@ -1,0 +1,11 @@
+{
+    "batch_size":4,
+    "shuffle":true,
+    "num_workers":8,
+    "pin_memory":false,
+    "audio_path":"./data/fma_small_ndarray/",
+    "receptive_field":4094,
+    "window_length":40000,
+    "cuda_available":true,
+    "quantization_channels":256
+}
